@@ -14,6 +14,12 @@ Alternatively you can download a pre-built binary from [https://github.com/proto
 
 `go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest`
 
+In macOS install the following codegen tools:
+
+`brew install protoc-gen-go`
+
+`brew install protoc-gen-go-grpc`
+
 ## Generate Go code from .proto files
 
 ```
